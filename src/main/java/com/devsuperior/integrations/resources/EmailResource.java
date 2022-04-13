@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.devsuperior.integrations.dto.EmailDTO;
 import com.devsuperior.integrations.services.EmailService;
+import com.devsuperior.integrations.services.SendGridEmailService;
 
 @RestController
 @RequestMapping(value = "/emails")
